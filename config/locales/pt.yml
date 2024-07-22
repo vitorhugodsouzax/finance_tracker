@@ -1,12 +1,34 @@
-pt-BR:
-  errors:
-    messages:
-      not_saved: "Não foi possível salvar"
-      # Adicione outras mensagens de erro conforme necessário
-
+pt:
   devise:
-    sessions:
-      signed_in: "Você fez login com sucesso."
-      invalid: "Email ou senha inválidos."
+    confirmations:
+      confirmed: "Sua conta foi confirmada com sucesso."
+      send_instructions: "Instruções de confirmação foram enviadas para seu e-mail."
+      already_confirmed: "Sua conta já foi confirmada."
+      not_found: "Não conseguimos encontrar um usuário com esse e-mail."
+      invalid_token: "O token de confirmação é inválido ou expirou."
     failure:
       invalid: "Email ou senha inválidos."
+      unauthenticated: "Você deve fazer login para acessar essa página."
+    invitations:
+      already_accepted: "Você já aceitou o convite para se registrar."
+      already_redeemed: "Esse convite já foi usado."
+      expired: "O convite expirou."
+      invalid: "O convite é inválido."
+      not_found: "Não conseguimos encontrar o convite."
+      redeemed: "Você já aceitou o convite para se registrar."
+    passwords:
+      send_instructions: "Instruções para redefinir sua senha foram enviadas para seu e-mail."
+      updated: "Sua senha foi atualizada com sucesso."
+      updated_not_active: "Sua senha foi atualizada, mas sua conta não está ativada."
+      reset_send_instructions: "Instruções para redefinir sua senha foram enviadas para seu e-mail."
+    registrations:
+      signed_up: "Bem-vindo! Você se registrou com sucesso."
+      signed_up_but_unconfirmed: "Bem-vindo! Você se registrou com sucesso, mas sua conta ainda precisa ser confirmada."
+      updated: "Sua conta foi atualizada com sucesso."
+      updated_but_unconfirmed: "Sua conta foi atualizada com sucesso, mas sua conta ainda precisa ser confirmada."
+    sessions:
+      signed_in: "Você fez login com sucesso."
+      signed_out: "Você saiu com sucesso."
+  errors:
+    messages:
+      not_saved: "Não foi possível salvar o registro. Verifique os erros abaixo."
