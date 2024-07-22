@@ -1,0 +1,12 @@
+pt-BR:
+  errors:
+    messages:
+      not_saved: "Não foi possível salvar"
+      # Adicione outras mensagens de erro conforme necessário
+
+  devise:
+    sessions:
+      signed_in: "Você fez login com sucesso."
+      invalid: "Email ou senha inválidos."
+    failure:
+      invalid: "Email ou senha inválidos."
